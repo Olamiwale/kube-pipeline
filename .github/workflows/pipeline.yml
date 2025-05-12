@@ -9,15 +9,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-<<<<<<< HEAD
-      
-=======
-    env:
-      IMAGE_NAME: olawale
-      IMAGE_TAG: ${{ github.sha }}
+ 
 
-    
->>>>>>> 6ac1668388d1af462410e3a7c5aeb1eb6a552246
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
