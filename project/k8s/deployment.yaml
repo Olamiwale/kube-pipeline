@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: kube-project-container
-        image: briitznewacr.azurecr.io/${image_name}:${image_tag}
+        image: briitznewacr.azurecr.io/olawale:latest
  
         ports:
         - containerPort: 3000
