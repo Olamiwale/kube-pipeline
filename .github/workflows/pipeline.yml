@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      Image_Name: olawale
-      Image_Tag: ${{ github.sha }}
+      IMAGE_NAME: olawale
+      IMAGE_TAG: ${{ github.sha }}
 
     
     steps:
