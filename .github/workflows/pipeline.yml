@@ -55,4 +55,4 @@ jobs:
       run: |
         kubectl apply -f project/k8s/deployment.yaml 
         kubectl apply -f project/k8s/service.yaml
-        kubectl rollout status deployment/olawale-deployment
+        kubectl rollout status deployment/kube-project-deployment
